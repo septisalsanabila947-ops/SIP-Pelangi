@@ -22,7 +22,7 @@ class AbsensiController extends Controller
     // =========================================================================
     const JAM_MASUK          = '08:00';   // jam masuk resmi
     const JAM_TOLERANSI      = '08:15';   // batas akhir masih dianggap "hadir"
-    const JAM_CUTOFF_CHECKIN = '10:30';   // setelah ini check-in mandiri ditutup
+    const JAM_CUTOFF_CHECKIN = '23:30';   // setelah ini check-in mandiri ditutup
     const JAM_MULAI_IZIN     = '00:01';
     const JAM_CUTOFF_IZIN    = '09:00';   // setelah ini lapor izin/sakit/tugas_luar ditutup
 

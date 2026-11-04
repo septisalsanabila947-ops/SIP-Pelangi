@@ -15,8 +15,8 @@ return [
     |   Klik kanan pada lokasi sekolah → "What's here?"
     */
 
-    'latitude'     => env('SCHOOL_LATITUDE', -1.2723042),
-    'longitude'    => env('SCHOOL_LONGITUDE', 102.9486034),
+    'latitude'     => env('SCHOOL_LATITUDE', -2.0211482),
+    'longitude'    => env('SCHOOL_LONGITUDE', 101.4231658),
     'radius_meter' => env('SCHOOL_RADIUS_METER', 100),
 
     /*
@@ -36,7 +36,7 @@ return [
     */
     'jam_masuk'          => env('ATTENDANCE_START',          '08:00'),
     'jam_toleransi'      => env('ATTENDANCE_LATE',           '08:15'),
-    'jam_cutoff_checkin' => env('ATTENDANCE_CUTOFF_CHECKIN', '10:30'),
+    'jam_cutoff_checkin' => env('ATTENDANCE_CUTOFF_CHECKIN', '23:30'),
     'jam_mulai_izin'    => env('ATTENDANCE_MULAI_IZIN',    '00:01'),
     'jam_cutoff_izin'    => env('ATTENDANCE_CUTOFF_IZIN',    '09:00'),
 
